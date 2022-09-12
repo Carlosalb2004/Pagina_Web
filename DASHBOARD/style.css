@@ -2,16 +2,18 @@ body{
     height: 1080px;
     width: 1080px;
     background-image: url('UCSM.jpg');
-    background-size: cover;
+    background-size: 100vw 100vh;
     background-repeat:no-repeat;
-    background-position: center center;
+    background-attachment: fixed;
+    margin: 0%;
+
 }
 .barra{
     font-family: Arial, Helvetica, sans-serif;
     width: 10%;
     height: 10%;
     position: fixed;
-    transition: .4s all;
+    /*transition: .4s all;*/
     z-index: 1;
 }
 
@@ -21,7 +23,7 @@ body{
 
 }
 .barra li{
-    transition: .3s all;
+    /*transition: .3s all;*/
 }
 .barra a{
     text-decoration: none;
@@ -41,7 +43,7 @@ body{
 }
 .barra img{
     padding-top: 5px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .barra:hover{
     width: 25%;
@@ -66,17 +68,17 @@ body{
 }
 
 .barra:hover li{
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(255, 255, 255);
     width: 100%;
 }
 
 .barra:hover ul:last-of-type{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(254, 254, 254);
 
 }
 
 .barra:hover a:hover{
     font-size: 25px;
     padding: 30px 0px;
-    background-color: rgb(79, 79, 210);
+    background-color: rgb(54, 209, 116);
 }
